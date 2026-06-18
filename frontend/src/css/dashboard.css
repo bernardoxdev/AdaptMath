@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 280px;
+    height: 100vh;
+
+    background: #111827;
+    border-right: 1px solid rgba(255, 255, 255, .05);
+
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.main {
+    margin-left: 280px;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.mobile-menu-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    width: 50px;
+    height: 50px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #1e293b;
+    color: white;
+
+    z-index: 1040;
+}
+
+.offcanvas.show~.mobile-menu-btn {
+    display: none;
+}
+
+@media (max-width:991px) {
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 80px 20px 20px;
+    }
+
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+.topbar {
+    margin-bottom: 40px;
+}
+
+.welcome h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.user-box {
+    background: #1e293b;
+    padding: 15px 20px;
+    border-radius: 16px;
+}
+
+.user-info strong {
+    display: block;
+}
+
+.user-info span {
+    color: #94a3b8;
+    font-size: .9rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #cbd5e1;
+
+    padding: 14px 16px;
+
+    border-radius: 14px;
+
+    transition: .3s;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    background: #1e293b;
+    color: #38bdf8;
+}
+
+.menu a.active {
+    background: #1e293b;
+    color: #38bdf8;
+}
+
+.menu a.active::before {
+    content: "";
+    width: 4px;
+    height: 18px;
+    background: #38bdf8;
+    border-radius: 999px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin-bottom: 35px;
+}
+
+.logout {
+    background: #1e293b;
+    color: #ef4444 !important;
+
+    padding: 15px;
+
+    border-radius: 14px;
+
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+.logout:hover {
+    background: #243244;
+    color: #ff6b6b !important;
+}
+
+.offcanvas .menu a {
+    color: #cbd5e1;
+}
+
+.offcanvas .menu a:hover,
+.offcanvas .menu a.active {
+    background: #1e293b;
+    color: #38bdf8;
+}
+
+.stat-card {
+    background: #1e293b;
+    padding: 28px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, .05);
+    transition: .3s;
+    height: 100%;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    border-color: #38bdf8;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.stat-card h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.stat-card span {
+    color: #cbd5e1;
+}
+
+.card {
+    background: #1e293b;
+    border: 1px solid rgba(255, 255, 255, .05);
+    border-radius: 24px;
+    padding: 30px;
+    color: white;
+    position: relative;
+    transition: .3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.badge-ai {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    background: #38bdf8;
+    color: #0f172a;
+
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #cbd5e1;
+    margin: 15px 0 20px;
+    line-height: 1.7;
+}
+
+.card-btn {
+    background: #111827;
+    color: #38bdf8;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.card-btn:hover {
+    background: #243244;
+}
+
+.ai-section {
+    background: #111827;
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, .05);
+}
+
+.ai-section h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.ai-section p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.ai-actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.ai-btn {
+    border: none;
+    background: #1e293b;
+    color: #38bdf8;
+    padding: 12px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.ai-btn:hover {
+    background: #243244;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .05);
+    }
+
+    .offcanvas .menu {
+        display: flex;
+        flex-direction: column !important;
+        gap: 12px;
+
+        width: 100%;
+    }
+
+    .offcanvas .menu a {
+        width: 100%;
+    }
+
+    .menu a {
+        white-space: nowrap;
+    }
+
+    .logout {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome h1 {
+        font-size: 2rem;
+    }
+
+    .topbar {
+        text-align: center;
+    }
+
+    .user-box {
+        width: 100%;
+    }
+
+    .card {
+        padding: 24px;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .ai-actions {
+        flex-direction: column;
+    }
+
+    .ai-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .welcome h1 {
+        font-size: 1.7rem;
+    }
+
+    .stat-card {
+        padding: 20px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .ai-section {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,3314 @@
+[
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Qualquer valor acima de 10^{-8}10​−8    \t​​.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Qualquer valor positivo inferior a 10^{-7}10​−7​​.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Valores maiores que 7 e menores que 8.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Valores maiores que 70 e menores que 80.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Valores maiores que 10^{-8}10​−8​​ e menores que 10^{-7}10​−7​​.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Para produzir a Hydrangea cor-de-rosa de maior valor comercial, deve-se preparar o solo de modo que x assuma",
+    "context": "A _Hydrangea macrophyila_ é uma planta com flor azul ou cor-de-rosa, dependendo do pH do solo no qual está plantada. Em solo ácido (ou seja, com pH < 7) a flor é azul, enquanto que em solo alcalino (ou seja, com pH > 7) a flor é rosa. Considere que a _Hydrangea_ cor-de-rosa mais valorizada comercialmente numa determinada região seja aquela produzida em solo com pH inferior a 8.\n\nSabe-se que pH = – log10x, em que x é a concentração de íon hidrogênio (H+)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "20%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "25%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "40%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "60%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "80%",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Nessas condições, o percentual sobre o valor do objeto, dado como recompensa, que ela deverá ofertar é igual a",
+    "context": " Uma pessoa, que perdeu um objeto pessoal quando visitou uma cidade, pretende divulgar nos meios de comunicação informações a respeito da perda desse objeto e de seu contato para eventual devolução. No entanto, ela lembra que, de acordo com o Art. 1 234 do Código Civil, poderá ter que pagar pelas despesas do transporte desse objeto até sua cidade e poderá ter que recompensar a pessoa que lhe restituir o objeto em, pelo menos, 5% do valor do objeto.\n\nEla sabe que o custo com transporte será de um quinto do valor atual do objeto e, como ela tem muito interesse em reavê-lo, pretende ofertar o maior percentual possível de recompensa, desde que o gasto total com as despesas não ultrapasse o valor atual do objeto."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/139/de1f40fe-ace0-453b-8b47-506e0bbd1e76.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/139/498952c5-4133-4895-a958-a5bb5a11da9b.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/139/2b93a78d-1ed0-42e1-ba89-342c53c8aed2.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/139/fd969b0c-70d7-4e15-b7c7-ebb4b413b6fe.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/139/8ebb5528-ddb8-4a6a-b8e7-c15a497c088c.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "O gráfico que melhor descreve o valor P, em real, a ser pago por mês, em função do volume V de água consumido, em metro cúbico, é",
+    "context": "Uma empresa presta serviço de abastecimento de água em uma cidade. O valor mensal a pagar por esse serviço é determinado pela aplicação de tarifas, por faixas de consumo de água, sendo obtido pela adição dos valores correspondentes a cada faixa.\n\n**•** Faixa 1: para consumo de até 6 m², valor fixo de R$12,00;\n\n**•** Faixa 2: para consumo superior a 6 m³ e até 10 m³, tarifa de R$ 3,00 por metro cúbico ao que exceder a 6m³;\n\n**•** Faixa 3: para consumo superior a 10 m³, tarifa de R$ 6,00 por metro cúbico ao que exceder a 10 m³. Sabe-se que nessa cidade o consumo máximo de água por residência é de 15 m² por mês."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,1x10​−1​​",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1,1x10​−2​​",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1,1x10​−3​​",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "1,1x10​−4​​",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "1,1x10​−5​​",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Em notação científica, o diâmetro interno do vírus influenza, em mm, é",
+    "context": "A gripe é uma infecção respiratória aguda de curtaduração causada pelo vírus influenza. Ao entrar no nosso organismo pelo nariz, esse vírus multiplica-se, disseminando-se para a garganta e demais partes das vias respiratórias, incluindo os pulmões. O vírus influenza é uma partícula esférica que tem um diâmetro interno de 0,00011 mm.\n\n_Disponível em: www.gripenet.pt._\n\n_Acesso em: 2 nov. 2013 (adaptado)._"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Será suficiente, pois a área da nova região a ser pavimentada mede 21 m².",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Será suficiente, pois a área da nova região a ser pavimentada mede 24 m².",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Será suficiente, pois a área da nova região a ser pavimentada mede 48 m².",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Não será suficiente, pois a área da nova região a ser pavimentada mede 108 m².",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Não será suficiente, pois a área da nova região a ser pavimentada mede 120 m².",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "A conclusão correta a que o síndico deverá chegar, considerando a nova área a ser pavimentada, é a de que o material disponível em estoque:",
+    "context": "Em um condomínio, uma área pavimentada, que tem a forma de um círculo com diâmetro medindo 6m, é cercado por grama. A administração do condomínio deseja ampliar essa área, mantendo seu formato circular, e aumentando, em 8m, o diâmetro dessa região, mantendo o revestimento da parte já existente. O condomínio dispõe, em estoque, de material suficiente para pavimentar mais 100 m² de área.\n\nO síndico do condomínio irá avaliar se esse material disponível será suficiente para pavimentar a região a ser ampliada.\n\nUtilize 3 como aproximação para π."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "12.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1 e 12.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "1 e 13.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "1, 12 e 13.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Em qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
+    "context": "O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:\n\n• Alerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será\n\ninferior a 10 °C, e a umidade relativa do ar for inferior a 40%;\n\n• Alerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve\n\nvariar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;\n\n• Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 ºC, e a umidade relativa do ar for inferior a 25%.\n\nUm resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.\n\nDecorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:\n\n• Dia 1: alerta cinza;\n\n• Dia 12: alerta laranja;\n\n• Dia 13: alerta vermelho."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "9.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "12.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "89.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "112.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "134.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Para esse banho, o número mínimo de embalagens desse cosmético é",
+    "context": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto numa banheira com capacidade de 0,3 m³.\n\nPara evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "9.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "12.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "89.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "112.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "134.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Para esse banho, o número mínimo de embalagens desse cosmético é",
+    "context": "O rótulo da embalagem de um cosmético informa que a dissolução de seu conteúdo, de acordo com suas especificações, rende 2,7 litros desse produto pronto para o uso. Uma pessoa será submetida a um tratamento estético em que deverá tomar um banho de imersão com esse produto numa banheira com capacidade de 0,3 m³.\n\nPara evitar o transbordamento, essa banheira será preenchida em 80% de sua capacidade."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "398,02",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "400,00",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "401,94",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "404,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "406,02",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O valor à vista, em real, que deverá constar na nota fiscal é de",
+    "context": "Uma pessoa se interessou em adquirir um produto anunciado em uma loja. Negociou com o gerente e conseguiu comprá-lo a uma taxa de juros compostos de 1% ao mês.  \nO primeiro pagamento será um mês após a aquisição do produto, e no valor de R$ 202,00. O segundo pagamento será efetuado um mês após o primeiro, e terá o valor de R$ 204,02.  \nPara concretizar a compra, o gerente emitirá uma nota fiscal com o valor do produto à vista negociado com o cliente, correspondendo ao financiamento aprovado."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "29,60 e 11,11.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "28,70 e 13,89.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "25,00 e 25,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "18,52 e 11,11.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "12,96 e 13,89.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quais os valores mais próximos, em porcentagens, correspondentes às parcelas financeiras que cada um dos més sócios iniciais e o quarto sócio, respectivamente, receberam?",
+    "context": "Três sócios resolveram fundar uma fábrica. O investimento inicial foi de R$ 1 000 000,00. E, independentemente do valor que cada um investiu nesse primeiro momento, resolveram considerar que cada um deles contribuiu com um terço do investimento inicial.\n\nAlgum tempo depois, um quarto sócio entrou para a sociedade, e os quatro, juntos, investiram mais R$ 800 000,00 na fábrica. Cada um deles contribuiu com um quarto desse valor. Quando venderam a fábrica, nenhum outro investimento havia sido feito. Os sócios decidiram então dividir o montante de R$ 1 800 000,00 obtido com a venda, de modo proporcional à quantia total investida por cada sócio."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 3.100,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "R$ 6.000,00",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "R$ 6.200,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "R$ 15.000,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "R$ 15.500,00",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quanto receberá a empresa que cadastrou a máquina com maior idade de uso?",
+    "context": "Para contratar três máquinas que farão o reparo de vias rurais de um município, a prefeitura elaborou um edital que, entre outras cláusulas, previa:\n\n• Cada empresa interessada só pode cadastrar uma única máquina para concorrer ao edital;\n\n• O total de recursos destinados para contratar o conjunto das três máquinas é de R$ 31 000,00;\n\n• O valor a ser pago a cada empresa será inversamente proporcional à idade de uso da máquina cadastrada pela empresa para o presente edital.\n\nAs três empresas vencedoras do edital cadastraram máquinas com 2, 3 e 5 anos de idade de uso."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 1.340,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "R$ 1.349,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "R$ 1.375,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "R$ 1.465,00",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "R$ 1.474,00.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Supondo que as projeções do IBGE se realizem, o rendimento médio mensal dos brasileiros em 2020 será de",
+    "context": "Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), o rendimento médio mensal dos trabalhadores brasileiros, no ano 2000, era de R$ 1.250,00. Já o Censo 2010 mostrou que, em 2010, esse valor teve um aumento de 7,2% em relação a 2000. Esse mesmo instituto projeta que, em 2020, o rendimento médio mensal dos trabalhadores brasileiros poderá ser 10% maior do que foi em 2010.\n\n_IBGE. Censo 2010_. **Disponível em:** www.ibge.gov.br. Acesso em: 13 ago. 2012 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Rolamento.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Catalisador.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Amortecedor.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Pastilha de freio.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Caixa de direção.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "O 2.015º. item cadastrado foi um(a)",
+    "context": "Após o Fórum Nacional Contra a Pirataria (FNCP) incluir a linha de autopeças em campanha veiculada\n\ncontra a falsificação, as agências fiscalizadoras divulgaram que os cinco principais produtos de autopeças falsificados são: rolamento, pastilha de freio, caixa de direção, catalisador e amortecedor.\n\n**Disponível em:** www.oficinabrasil.com.br. Acesso em: 25 ago. 2014 (adaptado).\n\nApós uma grande apreensão, as peças falsas foram cadastradas utilizando-se a codificação\n\n1: rolamento, 2: pastilha de freio, 3: caixa de direção, 4: catalisador e 5: amortecedor.\n\nAo final obteve-se a sequência; 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4,… que apresenta um padrão de formação que consiste na repetição de um bloco de números.\n\nEssa sequência descreve a ordem em que os produtos apreendidos foram cadastrados."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "69",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "70",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "90",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "104",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "105",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "De quantas maneiras diferentes podem ser formadas essas quatro duplas?",
+    "context": "Durante suas férias, oito amigos, dos quais dois são canhotos, decidem realizar um torneio de vôlei de praia.\n\nEles precisam formar quatro duplas para a realização do torneio. Nenhuma dupla pode ser formada por dois jogadores canhotos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "30",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "15",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "12",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "3",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Em uma eventual falta de água, o reservatório cheio será suficiente para abastecer o condomínio por quantos dias?",
+    "context": "Comum em lançamentos de empreendimentos imobiliários, as maquetes de condomínios funcionam como uma ótima ferramenta de marketing para as construtoras, pois, além de encantar clientes, auxiliam de maneira significativa os corretores na negociação e venda de imóveis.\n\nUm condomínio está sendo lançado em um novo bairro de uma cidade. Na maquete projetada pela construtora, em escala de 1 : 200, existe um reservatório de água com capacidade de 45 cm³.\n\nQuando todas as famílias estiverem residindo no condomínio, a estimativa é que, por dia, sejam consumidos 30.000 litros de água."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "99",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "51",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "50",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "6",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "1",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade mínima de novas placas de propaganda a serem instaladas é",
+    "context": "O dono de um restaurante situado às margens de uma rodovia percebeu que, ao colocar uma placa de propaganda de seu restaurante ao longo da rodovia, as vendas aumentaram. Pesquisou junto aos seus clientes e concluiu que a probabilidade de um motorista perceber uma placa de anúncio é 1/2.\n\nCom isso, após autorização do órgão competente, decidiu instalar novas placas com anúncios de seu restaurante ao longo dessa rodovia, de maneira que a probabilidade de um motorista perceber pelo menos uma das placas instaladas fosse superior a 99/100."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,60.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1,78.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1,79.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "1,81.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "1,82.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Se o novo jogador é 0,20 m mais baixo que o anterior, qual é a média de altura, em metro, do novo grupo?",
+    "context": "O preparador físico de um time de basquete dispõe de um plantel de 20 jogadores, com média de altura igual a 1,80 m.  \nNo último treino antes da estreia em um campeonato, um dos jogadores desfalcou o time em razão de uma séria contusão, forçando o técnico a contratar outro jogador para recompor o grupo."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/165/ba0a23a6-915a-4461-8310-3aca3741ad1d.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/165/b0a0c5d2-4770-40fc-822a-d7d826a2132b.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/165/440296e3-1711-46e2-a640-4151c45ceee2.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/165/df0a84a8-428b-4d06-9346-b6a1c34f12c1.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2019/questions/165/1a1d1fc2-bbc4-4442-a821-86875297945d.jpg",
+        "isCorrect": true
+      }
+    ],
+    "question": "A expressão relacionando q e m que representa a concentração alcoólica prejudicial à saúde do indivíduo, de acordo com a Associação Médica Americana, é",
+    "context": "O álcool é um depressor do sistema nervoso central e age diretamente em diversos órgãos. A concentração de álcool no sangue pode ser entendida como a razão entre a quantidade _**q**_ de álcool ingerido, medida em grama, e o volume de sangue, em litro, presente no organismo do indivíduo. Em geral, considera-se que esse volume corresponda ao valor numérico dado por 8% da massa corporal **_m_** desse indivíduo, medida em quilograma. De acordo com a Associação Médica Americana, uma concentração alcoólica superior a 0,4 grama por litro de sangue é capaz de trazer prejuízos à saúde do indivíduo.\n\n_Disponível em: http://cisa.org.br._ _Acesso em: 1 dez. 2018 (adaptado)._"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Y = 80X + 920.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Y = 80X + 1000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Y = 80X + 1080.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Y = 160X + 840.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Y = 160X + 1000.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Chamando de X a quantidade total de funcionários da empresa, a quantia Y, em reais, que esta empresa gasta semanalmente para pagar seus funcionários é expressa por",
+    "context": "Uma empresa tem diversos funcionários. Um deles é o gerente, que recebe R$ 1000,00 por semana.  \nOs outros funcionários são diaristas. Cada um trabalha 2 dias por semana, recebendo R$ 80,00 por dia trabalhado."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "10",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "50",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "100",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "250",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "500",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A capacidade do frasco, em mililitro, que esses pais deverão comprar é",
+    "context": "A bula de um antibiótico infantil, fabricado na forma de xarope, recomenda que sejam ministrados, diariamente, no máximo 500 mg desse medicamento para cada quilograma de massa do paciente. Um pediatra prescreveu a dosagem máxima desse antibiótico para ser ministrada diariamente a uma criança de 20 kg pelo período de 5 dias.\n\nEsse medicamento pode ser comprado em frascos de 10 mL, 50 mL, 100 mL, 250 mL e 500 mL. Os pais dessa criança decidiram comprar a quantidade exata de medicamento que precisará ser ministrada no tratamento, evitando a sobra de medicamento.\n\nConsidere que 1 g desse medicamento ocupe um volume de 1 cm³."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "0,0500",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "0,1000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "0,1125",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "0,3125",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "0,5000",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Qual é a probabilidade de, nesse ano, a declaração de um contribuinte ser considerada inconsistente, dado que ela era fraudulenta?",
+    "context": "Em um determinado ano, os computadores da receita federal de um país identificaram como inconsistentes 20% das declarações de imposto de renda que lhe foram encaminhadas.  \nUma declaração é classificada como inconsistente quando apresenta algum tipo de erro ou conflito nas informações prestadas. Essas declarações consideradas inconsistentes foram analisadas pelos auditores, que constataram que 25% delas eram fraudulentas.\n\nConstatou-se, ainda, que, dentre as declarações que não apresentaram inconsistências, 6,25% eram fraudulentas."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "23,3%.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "25,0%.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "50,0%.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "87,5%.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "100,0%.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O percentual de desconto que a construtora deverá conceder nos custos fixos é de",
+    "context": "Para construir uma piscina, cuja área total da superfície interna é igual a 40 m², uma construtora apresentou o seguinte orçamento:\n\n• R$ 10 000,00 pela elaboração do projeto;\n\n• R$ 40 000,00 pelos custos fixos;\n\n• R$ 2 500,00 por metro quadrado para construção da área interna da piscina.\n\nApós a apresentação do orçamento, essa empresa decidiu reduzir o valor de elaboração do projeto em 50%, mas recalculou o valor do metro quadrado para a construção da área interna da piscina, concluindo haver a necessidade de aumentá-lo em 25%. Além disso, a construtora pretende dar um desconto nos custos fixos, de maneira que o novo valor do orçamento seja reduzido em 10% em relação ao total inicial."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1 : 10",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 : 100",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "1 : 1 000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "1 : 10 000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "1 : 100 000",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A escala usada pelo arquiteto foi",
+    "context": "A caixa-d’água de um edifício terá a forma de um paralelepípedo retângulo reto com volume igual a 28 080 litros. Em uma maquete que representa o edifício, a caixa d’água tem dimensões 2 cm x 3,51 cm x 4 cm.\n\nDado: 1 dm3 = 1 L"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "5 caixas do tipo A.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 caixa do tipo A e 4 caixas do tipo B.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "3 caixas do tipo A e 1 caixa do tipo B.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "5 caixas do tipo A e 1 caixa do tipo B.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "6 caixas do tipo B.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A compra que atende às necessidades do proprietário, proporciona a menor sobra de pisos e resulta no menor preço é",
+    "context": "O proprietário de um apartamento decidiu instalar porcelanato no piso da sala. Essa sala tem formato retangular com 3,2 m de largura e 3,6 m de comprimento. As peças do porcelanato têm formato de um quadrado com lado medindo 80 cm. Esse porcelanato é vendido em dois tipos de caixas, com os preços indicados a seguir.\n\n*   Caixas do tipo A: 4 unidades de piso, R$ 35,00;\n*   Caixas do tipo B: 3 unidades de piso, R$ 27,00.\n\nNa instalação do porcelanato, as peças podem ser recortadas e devem ser assentadas sem espaçamento entre elas, aproveitando-se ao máximo os recortes feitos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "160",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "157",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "130",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "120",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "60",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual a quantidade mínima de peças, simbolizando o algarismo 2, necessárias para identificar o número de todos os quartos?",
+    "context": "Um hotel de 3 andares está sendo construído. Cada andar terá 100 quartos. Os quartos serão numerados de 100 a 399 e cada um terá seu número afixado à porta. Cada número será composto por peças individuais, cada uma simbolizando um único algarismo."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/147/69c7e5f8-93ce-4ecd-8e44-ac7c28af96f2.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/147/f0b8be29-d7d6-419e-8c6b-0b87bc3d2335.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/147/f0df66d2-c7fe-423b-8513-79ade98380ae.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/147/12128e5e-c71c-4946-904b-156196ea62fd.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/147/0f541af7-0c49-4ce9-bfe8-de20e82ea2b7.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Caso o seu veículo utilizasse o computador do Tipo B, o valor informado na tela seria obtido pela operação",
+    "context": "Muitos modelos atuais de veículos possuem computador de bordo. Os computadores informam em uma tela diversas variações de grandezas associadas ao desempenho do carro, dentre elas o consumo médio de combustível. Um veículo, de um determinado modelo, pode vir munido de um dos dois tipos de computadores de bordo:\n\n*   Tipo A: informa a quantidade X de litro de combustível gasto para percorrer 100 quilômetros\n*   Tipo B: informa a quantidade de quilômetro que o veículo é capaz de percorrer com um litro de combustível.\n\nUm veículo utiliza o computador do Tipo A, e ao final de uma viagem o condutor viu apresentada na tela a informação “X/100”."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2 quadrados e 4 retângulos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 retângulo e 4 triângulos isósceles.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "2 quadrados e 4 trapézios isósceles.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "1 quadrado, 3 retângulos e 2 trapézios retângulos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "2 retângulos, 2 quadrados e 2 trapézios retângulos.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "As quantidades de cada tipo de figura plana que formam esse tronco de pirâmide são",
+    "context": "Uma das Sete Maravilhas do Mundo Moderno é o Templo de Kukulkán, localizado na cidade de Chichén Itzá, no México. Geometricamente, esse templo pode ser representado por um tronco reto de pirâmide de base quadrada."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2 quadrados e 4 retângulos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 retângulo e 4 triângulos isósceles.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "2 quadrados e 4 trapézios isósceles.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "1 quadrado, 3 retângulos e 2 trapézios retângulos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "2 retângulos, 2 quadrados e 2 trapézios retângulos.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "As quantidades de cada tipo de figura plana que formam esse tronco de pirâmide são",
+    "context": "Uma das Sete Maravilhas do Mundo Moderno é o Templo de Kukulkán, localizado na cidade de Chichén Itzá, no México. Geometricamente, esse templo pode ser representado por um tronco reto de pirâmide de base quadrada."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/157/11963c8b-6d88-40b5-b189-58c6ea572472.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/157/a3ce0158-40d5-4e6e-b25e-399f3cc4aef3.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/157/c97483d0-179e-4411-9ea7-d2e2a997439a.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/157/4e85053e-beba-4bc7-a878-b526b4ed5291.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/157/fab55269-3063-4362-b2e0-8bf56dfaf3e2.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal?",
+    "context": "Amigo secreto é uma brincadeira tradicional nas festas de fim de ano. Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear. No dia da troca de presentes, uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados, mesmo no caso em que o ciclo se fecha. Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "13.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "14.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "17.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "18.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "21.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é",
+    "context": "Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/161/b1c014ca-a24a-413c-94fa-3a9738e43d15.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/161/82d66f6a-b63c-4dbe-aff4-db60a505a377.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/161/44c4f327-14d4-4977-aba5-fc772822fab0.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/161/88450c4c-cd06-4802-b378-c9fd4157e5d9.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/161/f2ebf7bd-9cea-4c0c-b51b-3ab66f0856b2.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Se R denota o raio da caixa-d’água do tipo A, então o raio da caixa-d’água do tipo B é",
+    "context": "Uma loja de materiais de construção vende dois tipos de caixas-d’água: tipo A e tipo B. Ambas têm formato cilíndrico e possuem o mesmo volume, e a altura da caixa-d’água do tipo B é igual a 25% da altura da caixa-d’água do tipo A."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/163/75af1ea2-c22d-4cdc-954a-2e3405bda3a4.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/163/2b88f67f-6135-45cc-b784-a8d530654d81.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/163/0f57a362-6c02-488c-8816-3ea8662979ba.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/163/d6537744-f3f3-46a2-b282-65bb82cf3ad4.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/163/a18fbd88-bdd0-4253-b707-a55e63714394.png",
+        "isCorrect": true
+      }
+    ],
+    "question": "Nessas condições, o número de anagramas formados é dado por",
+    "context": "Nos livros _Harry Potter_, um anagrama do nome do personagem “TOM MARVOLO RIDDLE” gerou a frase “I AM LORD VOLDEMORT”.\n\nSuponha que Harry quisesse formar todos os anagramas da frase “I AM POTTER”, de tal forma que as vogais e consoantes aparecessem sempre intercaladas, e sem considerar o espaçamento entre as letras."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,96",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1,98",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "2,05",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "2,06",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "2,08",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar para o grupo de três novos jogadores que ainda irá contratar?",
+    "context": "O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m. Para isso, o técnico contratou um novo jogador de 2,02 m. Os outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe. Ele fixará a média das estaturas para os três jogadores que ainda precisa contratar dentro do critério inicialmente estabelecido."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "30.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "60.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "70.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "90.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "100.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Dessas pessoas que foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual a",
+    "context": "Um grupo sanguíneo, ou tipo sanguíneo, baseia-se na presença ou ausência de dois antígenos, A e B, na superfície das células vermelhas do sangue. Como dois antígenos estão envolvidos, os quatro tipos sanguíneos distintos são:\n\n*   Tipo A: apenas o antígeno A está presente;\n*   Tipo B: apenas o antígeno B está presente;\n*   Tipo AB: ambos os antígenos estão presentes;\n*   Tipo O: nenhum dos antígenos está presente.\n\nDisponível em: http://saude.hsw.uol.com.br. Acesso em: 15 abr. 2012 (adaptado).\n\nForam coletadas amostras de sangue de 200 pessoas e, após análise laboratorial, foi identificado que em 100 amostras está presente o antígeno A, em 110 amostras há presença do antígeno B e em 20 amostras nenhum dos antígenos está presente."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/170/80262705-c8d8-4938-b3f9-4e2d3221e530.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/170/1cb92205-9cf0-4d92-836d-964f17757a64.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/170/86d7f914-5ec5-4877-a793-0be80fae45ed.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/170/d0486bb1-a21f-4b8e-9362-5c7800a2a4b9.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2020/questions/170/ffbeb7f2-cdbe-4f49-8acd-939a629ec5fc.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "A fração do capital de cada sócio que Antônio deverá adquirir é",
+    "context": "Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "II.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "III.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "IV.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "V.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O pneu escolhido foi",
+    "context": "Suponha que uma equipe de corrida de automóveis disponha de cinco tipos de pneu (I, II, III, IV, V), em que o fator de eficiência climática EC (índice que fornece o comportamento do pneu em uso, dependendo do clima) é apresentado:\n\n*   EC do pneu I: com chuva 6, sem chuva 3;\n*   EC do pneu II: com chuva 7, sem chuva –4;\n*   EC do pneu III: com chuva –2, sem chuva 10;\n*   EC do pneu IV: com chuva 2, sem chuva 8;\n*   EC do pneu V: com chuva –6, sem chuva 7.\n\nO coeficiente de rendimento climático (CRC) de um pneu é calculado como a soma dos produtos dos fatores de EC, com ou sem chuva, pelas correspondentes probabilidades de se ter tais condições climáticas: ele é utilizado para determinar qual pneu deve ser selecionado para uma dada corrida, escolhendo-se o pneu que apresentar o maior CRC naquele dia. No dia de certa corrida, a probabilidade de chover era de 70% e o chefe da equipe calculou o CRC de cada um dos cinco tipos de pneu."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "P=d.n + L + d.n.s",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "P=d.n + L + d.s",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "P= d+ L +s",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "P= d.n.s + L",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "P= d.n + L +s",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Nessa situação, o preço a ser pago ao aplicativo para uma hospedagem de n diárias pode ser obtido pela expressão",
+    "context": "Aplicativos que gerenciam serviços de hospedagem  \ntêm ganhado espaço no Brasil e no mundo por oferecer  \nopções diferenciadas em termos de localização e valores  \nde hospedagem. Em um desses aplicativos, o preço P a  \nser pago pela hospedagem é calculado considerando um  \npreço por diária d, acrescido de uma taxa fixa de limpeza L  \ne de uma taxa de serviço. Essa taxa de serviço é um valor  \npercentual s calculado sobre o valor pago pelo total das  \ndiárias."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "4",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "9",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "10",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Com base nos valores considerados pelo organizador da competição, a quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é",
+    "context": "O organizador de uma competição de lançamento de  \ndados pretende tornar o campeonato mais competitivo.  \nPelas regras atuais da competição, numa rodada, o  \njogador lança 3 dardos e pontua caso acerte pelo menos um deles no alvo. O organizador considera que, em média, os jogadores tem, em cada lançamento, 1/2 de probabilidade de acertar um dardo no alvo.  \nA fim de tornar o jogo mais atrativo, planeja modificar  \nas regras de modo que a probabilidade de um jogador  \npontuar em uma rodada seja igual ou superior a 9/10. Para  \nisso, decide aumentar a quantidade de dardos a serem  \nlançados em cada rodada."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "5,0.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "9,5.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "10,0.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "10,5.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "15,0.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "A substituição da ração ocorrerá se a média da distribuição das massas dos coelhos da amostra, em quilograma, for superior",
+    "context": "Um zootecnista pretende testar se uma nova ração  \npara coelhos é mais eficiente do que a que ele vem  \nutilizando atualmente. A ração atual proporciona uma  \nmassa média de 10 kg por coelho, com um desvio padrão  \nde 1 kg, alimentado com essa ração durante um período  \nde três meses.  \nO zootecnista selecionou uma amostra de coelhos e  \nos alimentou com a nova ração pelo mesmo período de  \ntempo. Ao final, anotou a massa de cada coelho, obtendo  \num desvio padrão de 1,5 kg para a distribuição das  \nmassas dos coelhos dessa amostra.  \nPara avaliar a eficiência dessa ração, ele utilizará  \no coeficiente de variação (CV) que é uma medida de  \ndispersão definida por CV =S/X, em que s representa o  \ndesvio padrão X, a média das massas dos coelhos que  \nforam alimentados com uma determinada ração.  \nO zootecnista substituirá a ração que vinha utilizando  \npela nova, caso o coeficiente de variação da distribuição  \ndas massas dos coelhos que foram alimentados com a  \nnova ração for menor do que o coeficiente de variação  \nda distribuição das massas dos coelhos que foram  \nalimentados com a ração atual."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "10% menor",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1% menor",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "Igual",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "1% maior",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "11% maior",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade de combustível consumida pelo modelo de aeronave B, em relação à do modelo de aeronave B, em relação à do modelo de aeronave A, em um voo lotado entre as duas cidades, é",
+    "context": "Para realizar um voo entre duas cidades que distam 2 000 km uma da outra, uma companhia aérea utilizava um modelo de aeronave A, capaz de transportar até 200 passageiros. Quando uma dessas aeronaves está lotada de passageiros, o consumo de combustível é de 0,02 litro por quilômetro e por passageiro. Essa companhia resolveu trocar o modelo de aeronave A pelo modelo de aeronave B, que é capaz de transportar 10% de passageiros a mais do que o modelo A, mas consumindo 10% menos combustível por quilômetro e por passageiro."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "6,0",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "5,7",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "5,0",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "4,5",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "4,4",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Nessa parada específica, com um dos grupos reduzido, qual foi o tempo gasto, em segundo, para trocar os quatro pneus?",
+    "context": "Em uma corrida automobilística, os carros podem fazer paradas nos boxes para efetuar trocar de pneus. Nessas trocas, o trabalho é feito por um grupo de três pessoas em cada pneu. Considere que os grupos iniciam o trabalho no mesmo instante, trabalham à mesma velocidade e cada grupo trabalha em um único pneu. Com os quatro grupos completos, são necessários 4 segundos para que a troca seja efetuada. O tempo gasto por um grupo para trocar um pneu é inversamente proporcional ao número de pessoas trabalhando nele. Em uma dessas paradas, um dos trabalhadores passou mal, não pôde participar da troca e nem foi substituído, de forma que um dos quatro grupos de troca ficou reduzido."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "II",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "III",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "IV",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "V",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Nessas condições, o cliente deverá comprar sachês do suplemento",
+    "context": "Um  nutricionista verificou, na dieta diária do seu cliente, a falta de 800mg do mineral A, de 1 000 mg do mineral B e de 1 200 mg do mineral C. Por isso, recomendou a compra de suplementos alimentares que forneçam os minerais faltantes e informou que não haveria problema se consumisse mais desses minerais do que o recomendado.\n\nO cliente encontrou cinco suplementos, vendidos em sachês unitários, cujos preços e as quantidades dos minerais estão apresentados a seguir:\n\n*   Suplemento I: contém 50mg do mineral A, 100mg do mineral B e 200 mg do mineral C e custa R$2,00;\n*   Suplemento II: contém 800mg do mineral A, 250mg do mineral B e 200 mg do mineral C e custa R$3,00;\n*   Suplemento III: contém 250mg do mineral A, 1 000mg do mineral B e 300 mg do mineral C e custa R$5,00;\n*   Suplemento IV: contém 600mg do mineral A, 500mg do mineral B e 1 000 mg do mineral C e custa R$6,00;\n*   Suplemento V: contém 400mg do mineral A, 800mg do mineral B e 1 200 mg do mineral C e custa R$8,00;\n\nO cliente decidiu comprar sachês de um único suplemento no qual gastasse menos dinheiro e ainda suprisse a falta de minerais indicada pelo nutricionista, mesmo que consumisse alguns deles além de sua necessidade."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/161/71c29cd7-d512-4f07-a66b-d9c7384ebcf1.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/161/a22cdccd-2be3-48b7-b37e-3253586d2fe0.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/161/13b92c32-cd4b-4f3c-9699-3d0916f6d516.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/161/83ffed50-3e9d-46d0-9cb6-5acf0cd42d98.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/161/9536b3b7-3d03-40b4-abea-658166fee917.png",
+        "isCorrect": true
+      }
+    ],
+    "question": "O gráfico que mais se assemelha ao que deve ser elaborado pelo administrador é",
+    "context": "O administrador de um teatro percebeu que, com o ingresso do evento a R$20,00, um show conseguia atrair 200 pessoas e que, a cada R$1,00 de redução no preço do ingresso, o número de pessoas aumentava em 40. Ele sabe que os donos do teatro só admitem trabalhar com valores inteiros para os ingressos, pela dificuldade de disponibilizar troco, e pretende convencê-los a diminuir o preço do ingresso. Assim, apresentará um gráfico da arrecadação em função do valor do desconto no preço atual do ingresso."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/163/b08497a6-4df2-4f61-96f2-f125293d21a4.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/163/e8929184-06b7-4b2c-a7bf-8682d4d92231.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/163/381b63e2-88a8-405f-ab1e-ae5e1ef6b266.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/163/ef0b4b69-a758-420e-a3fa-b7b5e0a2b06c.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/163/2770886b-3ccc-4ff7-8e35-59674a921fa9.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Nessa relação, a unidade de medida adequada para o módulo volumétrico é",
+    "context": "A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluído é diretamente proporcional ao quadrado da velocidade do som (em metro por segundo) no fluido e à sua densidade (em quilograma por meto cúbico), com uma constante de proporcionalidade adimensional."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "15,9",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "16,1",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "16,4",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "17,4",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "18,0",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é",
+    "context": "Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 10 km percorridos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "II",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "III",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "IV",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "V",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual dos fornecedores prestou as informações adequadas, devendo ser o escolhido pelo construtor para aquisição do material?",
+    "context": "O projeto de um contêiner, em forma de paralelepípedo reto retangular, previa a pintura dos dois lados (interno e externo) de cada uma das quatro paredes com tinta acrílica e a pintura do piso interno com tinta epóxi. O construtor havia pedido, a cinco fornecedores diferentes, orçamentos das tintas necessárias, mas, antes de iniciar a obra, resolveu mudar o projeto original, alterando o comprimento e a largura para o dobro do originalmente previsto, mantendo inalterada a altura. Ao pedir novos orçamentos aos fornecedores, para as novas dimensões, cada um deu uma resposta diferente sobre as novas quantidades de tinta necessárias.\n\nEm relação ao previsto para o projeto original, as novas quantidades de tinta necessárias informadas pelos fornecedores foram as seguintes:\n\n–  Fornecedor I: “O dobro, tanto para as paredes quanto para o piso”.\n\n– Fornecedor II: “O dobro para as paredes e quatro vezes para o piso”.\n\n– Fornecedor III: “Quatro vezes, tanto para as paredes quanto para o piso.”\n\n– Fornecedor IV: “Quatro vezes para as paredes e o dobro para o piso.”\n\n– Fornecedor V: “Oito vezes para as paredes e quatro vezes para o piso.”\n\nAnalisando as informações dos fornecedores, o construtor providenciará a quantidade adequada de material. Considere a porta de acesso do contêiner como parte de uma das paredes."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Triângulo",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Quadrado",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Retângulo",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Hexágono",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Círculo",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Nessas condições, o modelo que deverá ser escolhido tem como face útil para impressão um",
+    "context": "O dono de uma loja pretende usar cartões imantados para a sua divulgação de sua loja. A empresa que fornecerá o serviço lhe informa que o custo de fabricação do cartão é de R$0,01 por centímetro quadrado e que disponibiliza modelos tendo como faces úteis para impressão:\n\n*   um triângulo equilátero de lado 12 cm;\n*   um quadrado de lado 8 cm;\n*   um retângulo de lados 11 cm e 8 cm;\n*   um hexágono regular de lado 6cm;\n*   um círculo de diâmetro 10 cm.\n\nO dono da loja está disposto a pagar, no máximo, R$0,80 por cartão. Ele escolherá, dentro desse limite de preço, o modelo que tiver maior área de impressão.\n\nUse 3 como aproximação para π e use 1,7 como aproximação para √3."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "8",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "9",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "15",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "20",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Para não ter prejuízo, o menor número de lavagens diárias que o lava rápido deve efetuar é",
+    "context": "Um lava-rápido oferece dois tipos de lavagem de veículos: lavagem simples, ao preço de R$ 20,00, e lavagem completa, ao preço de R$35,00. Para cobrir as despesas com produtos e funcionários, e não ter prejuízos, o lava-rápido deve ter uma receita diária de, pelo menos, R$300,00."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "379",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "381",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "579",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "581",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "601",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quantos anos de fundação essa cidade comemorará em 2050?",
+    "context": "O sistema de numeração romano ainda é utilizado na indicação de capítulos e volumes de livros, na designação de séculos e, em ordem cronológica, de papas e reis de mesmo nome. São utilizadas sete letras do alfabeto:  \nQuatro fundamentais: I (vale 1); X (vale 10); C (vale 100) e M (vale 1 000).  \nTrês secundárias: V (vale 5); L (vale 50); e D (vale 500).\n\nAs regras para escrever números romanos são:  \n1\\. Não existe símbolo correspondente ao zero;  \n2\\. Os símbolos fundamentais podem ser repetidos até três vezes e seus valores são adicionados. Exemplo: XXX = 30;  \n3\\. Uma letra posta à esquerda de outra de maior valor indica subtração dos respectivos valores. Exemplo: IX = 10 – 1 = 9;  \n4\\. Uma letra posta à direita de outra de maior valor indica adição dos respectivos valores. Exemplo: XI = 10 + 1 = 11\n\nEm uma cidade europeia há uma placa indicando o ano de sua fundação: MCDLXIX."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "700 000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 600 000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1 900 000",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "2 200 000",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "2 800 000",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Nas condições estabelecidas, o valor total, em real, obtido, pelo fazendeiro com a venda de todos os terrenos será igual a",
+    "context": "Uma unidade de medida comum usada para a expressar áreas de terrenos de grandes dimensões é o hectare, que equivale a 10 000 m². Um fazendeiro decide fazer um loteamento utilizando 3 hectares de sua fazenda, dos quais 0,9 hectare será usado para a construção de ruas e calçadas e o restante será dividido em terrenos com área de 300 m² cada um. Os 20 primeiros terrenos vendidos terão preços promocionais de R$ 20 000,00 cada, e os demais, R$ 30 000,00 cada."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/179/7551285a-0dd2-404f-9756-f6153809bb6b.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/179/ec6aed66-8609-4de8-8e4e-e352f8504ff0.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/179/e7db8ec1-87ee-4181-8cdc-f3de1667bd46.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/179/7e9a8152-4cad-499f-a704-e336986e83a5.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2021/questions/179/0e4dc469-3dcf-46e2-abb9-7218a2ae6fff.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão",
+    "context": "Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,31 mil reais",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1,90 mil reais",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "2,30 mil reais",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "2,36 mil reais",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "2,95 mil reais",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A economia da escola, na utilização de um laboratório tipo B, em vez de um laboratório tipo A, num período de 4 anos, por usuário, será de",
+    "context": "Os diretores de uma escola precisam construir um laboratório para uso dos alunos. Há duas possibilidades:\n\n(i) um laboratório do tipo A, com capacidade para 100 usuário, a um custo de 180 mil reais e gastos de 60 mil reais por ano para manutenção;\n\n(ii) um laboratório do tipo B, com capacidade para 80 usuários, a um custo de 120 mil reais e gastos com manutenção de 16 mil reais por ano.\n\nConsidera-se que, em qualquer caso, o laboratório implantado será utilizado na totalidade de sua capacidade."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1,80 e 0,60.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "1,80 e 0,70.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1,90 e 0,80.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "2,00 e 0,90.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "2,00 e 1,00.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Esse refrigerador tem altura e largura máximas, em metro, respectivamente, iguais a",
+    "context": "Um casal está reformando a cozinha de casa e decidiu comprar um refrigerador novo. Observando a planta da nova cozinha, desenhada na escala de 1: 50, notaram que o espaço destinado ao refrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem que os fabricantes de refrigeradores indicam que, para um bom funcionamento e fácil manejo na limpeza, esses eletrodomésticos devem ser colocados em espaços que permitam uma distância de, pelo menos, 10 cm de outros móveis ou paredes, tanto na parte superior quanto nas laterais. O casal comprou um refrigerador que caberia no local a ele destinado na nova cozinha, seguindo as instruções do fabricante."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "22.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "25.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "28.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "48.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "64.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O número mínimo de dias necessários para a realização desse torneio é",
+    "context": "Foram convidadas 32 equipes para um torneio de futebol, que foram divididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, cada equipe disputa uma única partida contra cada uma das demais equipes de seu grupo. A primeira e a segunda colocadas de cada grupo seguem para realizar as 8 partidas da próxima fase do torneio, chamada oitavas de final. Os vencedores das partidas das oitavas de final seguem para jogar as 4 partidas das quartas de final. Os vencedores das quartas de final disputam as 2 partidas das semifinais, e os vencedores avançam para a grande final, que define a campeã do torneio.\n\nPelas regras do torneio, cada equipe deve ter um período de descanso de, no mínimo, 3 dias entre dois jogos por ela disputados, ou seja, se um time disputar uma partida, por exemplo, num domingo, só poderá disputar a partida seguinte a partir da quinta-feira da mesma semana."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "8.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "9.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "11.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "18.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "24.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Para ser fiel à divulgação feita, a quantidade mínima de cores que a montadora deverá disponibilizar a seus clientes é",
+    "context": "Uma montadora de automóveis divulgou que oferta a seus clientes mais de 1 000 configurações diferentes de carro, variando o modelo, a motorização, os opcionais e a cor do veículo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. Já em relação aos opcionais, existem 3 escolhas possíveis: central multimídia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, três ou nenhum dos opcionais disponíveis."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "50 000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "100 000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "200 000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "300 000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "400 000.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "A quantidade de moedas de ouro que a empresa deverá inserir ao pacote especial, para que seja mantida a mesma proporção existente entre as quantidades de gemas e de moedas de ouro contidas no pacote básico, é",
+    "context": "O pacote básico de um jogo para smartphone, que é vendido a R$ 50,00, contém 2 000 gemas e 100 000 moedas de ouro, que são itens utilizáveis nesse jogo.  \nA empresa que comercializa esse jogo decidiu criar um pacote especial que será vendido a R$ 100,00 e que se diferenciará do pacote básico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em relação ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes básicos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "10.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "13.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "14.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "15.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "16",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "A soma do número de voltas em torno dos dois circuitos, no segundo dia, será",
+    "context": "Um parque tem dois circuitos de tamanhos diferentes para corridas. Um corredor treina nesse parque e, no primeiro dia, inicia seu treino percorrendo  \n3 voltas em torno do circuito maior e 2 voltas em torno do menor, perfazendo um total de 1 800 m. Em seguida, dando continuidade a seu treino, corre mais 2 voltas em torno do circuito maior e 1 volta em torno do menor,  \npercorrendo mais 1 100 m.\n\nNo segundo dia, ele pretende percorrer 5 000 m nos circuitos do parque, fazendo um número inteiro de voltas em torno deles e de modo que o número de voltas seja o maior possível."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Não satisfatório.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Regular.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Bom.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Muito bom.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Excelente.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O aumento na quantidade de compradores, em consequência dessa segunda divulgação, em relação\nao que foi registrado com a primeira divulgação, foi classificado como",
+    "context": "Uma equipe de marketing digital foi contratada para aumentar as vendas de um produto ofertado em um site de comércio eletrônico. Para isso, elaborou um anúncio que, quando o cliente clica sobre ele, é direcionado  \npara a página de vendas do produto. Esse anúncio foi divulgado em duas redes sociais, A e B, e foram obtidos os seguintes resultados:\n\n• rede social A: o anúncio foi visualizado por 3 000 pessoas; 10% delas clicaram sobre o anúncio e foram redirecionadas para o site; 3% das que clicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 100,00;\n\n• rede social B: o anúncio foi visualizado por 1 000 pessoas; 30% delas clicaram sobre o anúncio e foram redirecionadas para o site; 2% das que  \nclicaram sobre o anúncio compraram o produto. O investimento feito para a publicação do anúncio nessa rede foi de R$ 200,00.\n\nPor experiência, o pessoal da equipe de marketing considera que a quantidade de novas pessoas que verão o anúncio é diretamente proporcional ao investimento realizado, e que a quantidade de pessoas que comprarão o produto também se manterá proporcional à quantidade de pessoas que clicarão sobre o anúncio.  \nO responsável pelo produto decidiu, então, investir mais R$ 300,00 em cada uma das duas redes sociais para a divulgação desse anúncio e obteve, de fato, o aumento proporcional esperado na quantidade de clientes que compraram esse produto. Para classificar o aumento obtido na quantidade (Q) de compradores desse produto, em consequência dessa segunda divulgação, em relação aos resultados observados na primeira divulgação, o  \nresponsável pelo produto adotou o seguinte critério:\n\n• Q ≤ 60%: não satisfatório;  \n• 60% < Q ≤ 100%: regular;  \n• 100% < Q ≤ 150%: bom;  \n• 150% < Q ≤ 190%: muito bom;  \n• 190% < Q ≤ 200%: excelente"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "30 minutos ou menos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Mais de 35 e menos de 45 minutos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Mais de 45 e menos de 55 minutos.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Mais de 60 e menos de 70 minutos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "70 minutos ou mais.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Para que a recomendação médica tenha efetivamente sido respeitada, a atividade física dessa pessoa, nesse dia, durou",
+    "context": "Um médico faz o acompanhamento clínico de um grupo de pessoas que realizam atividades físicas diariamente. Ele observou que a perda média de massa dessas pessoas para cada hora de atividade física era de 1,5 kg. Sabendo que a massa de 1 L de água é de 1 kg, ele recomendou que ingerissem, ao longo das 3 horas seguintes ao final da atividade, uma quantidade total de água correspondente a 40% a mais do que a massa perdida na atividade física, para evitar desidratação.\n\nSeguindo a recomendação médica, uma dessas pessoas ingeriu, certo dia, um total de 1,7 L de água após  \nterminar seus exercícios físicos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "16 514.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "86 700.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "115 600.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "441 343.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "448 568.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "De acordo com as informações dadas, o número de vagas criadas em janeiro de 2012 foi",
+    "context": "Em janeiro de 2013, foram declaradas 1 794 272 admissões e 1 765 372 desligamentos no Brasil, ou seja,  \nforam criadas 28 900 vagas de emprego, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged), divulgados pelo Ministério do Trabalho e Emprego (MTE). Segundo o Caged, o número de vagas criadas em janeiro de 2013 sofreu uma queda de 75%, quando comparado com o mesmo período de 2012.\n\nDisponível em: http://portal.mte.gov.br. Acesso em: 23 fev. 2013 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/155/4e4d5692-b3ea-4434-aaef-74309d2d3b2a.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/155/2b0fcee8-c3b1-4c03-ac2a-342792f7ab28.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/155/e2dfe176-9a1a-49e7-aee5-62794ac8242b.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/155/0681d716-28d4-4521-801f-5a20871829e5.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/155/027b58bd-d5b6-4ab1-afb6-a17dd85e31c8.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "De quantas maneiras diferentes essa pessoa poderá escolher 2 desses apartamentos para compra nas condições desejadas?",
+    "context": "Um prédio, com 9 andares e 8 apartamentos de 2 quartos por andar, está com todos os seus apartamentos à venda. Os apartamentos são identificados por números formados por dois algarismos, sendo que a dezena indica o andar onde se encontra o apartamento, e a unidade, um algarismo de 1 a 8, que diferencia os apartamentos de um mesmo andar. Quanto à incidência de sol nos quartos desses apartamentos, constatam-se as seguintes características, em função de seus números de identificação:  \n• naqueles que finalizam em 1 ou 2, ambos os quartos recebem sol apenas na parte da manhã;  \n• naqueles que finalizam em 3, 4, 5 ou 6, apenas um dos quartos recebe sol na parte da manhã;  \n• naqueles que finalizam em 7 ou 8, ambos os quartos recebem sol apenas na parte da tarde.\n\nUma pessoa pretende comprar 2 desses apartamentos em um mesmo andar, mas quer que, em ambos, pelo menos um dos quartos receba sol na parte da manhã."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/157/fc471085-2399-4726-8cde-a72bae7ac9c5.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/157/e90bf791-5ee8-4ecf-8c11-34988750ed2b.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/157/693a22d0-61e8-4f3b-ad77-5b73fc16bc0f.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/157/62e359c4-eecb-4120-861f-eb5af04c9fec.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2022/questions/157/af3c085b-7eb0-4462-a0b1-f79fd1291f67.png",
+        "isCorrect": true
+      }
+    ],
+    "question": "A expressão algébrica que descreve S(q) em função de q é",
+    "context": "O funcionário de uma loja tem seu salário mensal formado por uma parcela fixa de 675 reais mais uma comissão que depende da quantidade de peças vendidas por ele no mês. O cálculo do valor dessa comissão é feito de acordo com estes critérios:  \n• até a quinquagésima peça vendida, paga-se 5 reais por peça;  \n• a partir da quinquagésima primeira peça vendida, o valor pago é de 7 reais por peça.  \nRepresente por q a quantidade de peças vendidas no mês por esse funcionário, e por S(q) o seu salário mensal, em real, nesse mês."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "14,4.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "20,7.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "22,0.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "30,0.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "37,5",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Mantido o número atual de professores com suas atuais titulações, o aumento salarial, em porcentagem, a ser concedido aos doutores deverá ser de, no máximo,",
+    "context": "Em uma universidade, atuam professores que estão enquadrados funcionalmente pela sua maior titulação: mestre ou doutor. Nela há, atualmente, 60 mestres e 40 doutores. Os salários mensais dos professores mestres e dos doutores são, respectivamente, R$ 8 000,00 e  \nR$ 12 000,00.  \nA diretoria da instituição pretende proporcionar um aumento salarial diferenciado para o ano seguinte, de tal forma que o salário médio mensal dos professores dessa instituição não ultrapasse R$ 12 240,00. A universidade já estabeleceu que o aumento salarial será de 25% para os mestres e precisa ainda definir o percentual de reajuste para os doutores."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "0,125.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "0,200.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "4,800.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "6,000.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "12,000.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade de inseticida que é liberada a cada acionamento do borrifador, em mililitro, é",
+    "context": "Um borrifador de atuação automática libera, a cada acionamento, uma mesma quantidade de inseticida. O recipiente desse produto, quando cheio, contém 360 mL de inseticida, que duram 60 dias se o borrifador permanecer ligado ininterruptamente e for acionado a cada 48 minutos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2,5",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "10,0",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "730,0",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "13 322,5",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "53 290,0",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "No planeta Z, seu ano corresponderia a quantos de seus dias?",
+    "context": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu próprio eixo de rotação e o tempo para dar 1 volta completa em torno de seu Sol.  \nSuponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "R$ 2,00 menor.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "R$ 100,00 menor.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "R$ 200,00 menor.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "R$ 42,00 maior.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "R$ 80,00 maior.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O valor apresentado pela loja, comparado ao valor calculado pela cliente, foi",
+    "context": "Em uma loja, o preço promocional de uma geladeira é de R$ 1 000,00 para pagamento somente em dinheiro. Seu preço normal, fora da promoção, é 10% maior. Para pagamento feito com o cartão de crédito da loja, é dado um desconto de 2% sobre o preço normal.  \nUma cliente decidiu comprar essa geladeira, optando pelo pagamento com o cartão de crédito da loja. Ela calculou que o valor a ser pago seria o preço promocional acrescido de 8%. Ao ser informada pela loja do valor a  \npagar, segundo sua opção, percebeu uma diferença entre seu cálculo e o valor que lhe foi apresentado"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "II.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "III.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "IV.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "V.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "O modelo escolhido deve ser o",
+    "context": "Uma loja comercializa cinco modelos de caixas-d’água (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V têm as especificações de suas dimensões dadas em relação às dimensões do modelo I, cuja profundidade é P e área da base é Ab, como segue:\n\n• modelo II: o dobro da profundidade e a metade da  \nárea da base do modelo I;  \n• modelo III: o dobro da profundidade e a metade do  \nraio da base do modelo I;  \n• modelo IV: a metade da profundidade e o dobro da  \nárea da base do modelo I;  \n• modelo V: a metade da profundidade e o dobro do  \nraio da base do modelo I.\n\nUma pessoa pretende comprar nessa loja o modelo  \nde caixa-d’água que ofereça a maior capacidade  \nvolumétrica"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "I.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "II.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "III.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "IV.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "V.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O projeto que o casal deverá escolher será o",
+    "context": "Um casal planeja construir em sua chácara uma piscina com o formato de um paralelepípedo reto retângulo com capacidade para 90 000 L de água. O casal contratou uma empresa de construções que apresentou cinco projetos com diferentes combinações nas dimensões internas de profundidade, largura e comprimento. A piscina a ser construída terá revestimento interno em suas paredes e fundo com uma mesma cerâmica, e o casal irá escolher o projeto que exija a menor área de revestimento.\n\nAs dimensões internas de profundidade, largura e comprimento, respectivamente, para cada um dos projetos, são:\n\n• projeto I: 1,8 m, 2,0 m e 25,0 m;  \n• projeto II: 2,0 m, 5,0 m e 9,0 m;  \n• projeto III: 1,0 m, 6,0 m e 15,0 m;  \n• projeto IV: 1,5 m, 15,0 m e 4,0 m;  \n• projeto V: 2,5 m, 3,0 m e 12,0 m."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "800",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1200",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "2400",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "4800",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "6400",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quantas dessas esferas poderão ser obtidas a partir de cada peça cilíndrica?",
+    "context": "Peças metálicas de aeronaves abandonadas em aeroportos serão recicladas. Uma dessas peças é maciça e tem o formato cilíndrico, com a medida do raio da base igual a 4 cm e a da altura igual a 50 cm. Ela será derretida, e o volume de metal resultante será utilizado para a fabricação de esferas maciças com diâmetro de 1 cm, a serem usadas para confeccionar rolamentos. Para estimar a quantidade de esferas que poderão ser produzidas a partir de cada uma das peças cilíndricas, admite-se que não ocorre perda de material durante o processo de derretimento."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "135 000,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 350 000,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "13 500 000,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "135 000 000,00.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "1 350 000 000,00",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "O número escrito pelo estudante foi",
+    "context": "Ao escutar a notícia de que um filme recém-lançado arrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão em bilheteria, um estudante escreveu corretamente o número que representa essa quantia, com todos os seus  \nalgarismos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "3",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "12",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "24",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Quantas porções da receita-base de massa ela deve preparar para atender esse cliente?",
+    "context": "Uma cozinheira produz docinhos especiais por encomenda. Usando uma receita-base de massa, ela prepara uma porção, com a qual produz 50 docinhos maciços de formato esférico, com 2 cm de diâmetro. Um cliente encomenda 150 desses docinhos, mas pede que cada um tenha formato esférico com 4 cm de diâmetro.  \nA cozinheira pretende preparar o número exato de porções da receita-base de massa necessário para produzir os docinhos dessa encomenda"
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Forem ambas audíveis.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Tiverem a mesma potência.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Tiverem a mesma frequência.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Tiverem a mesma intensidade.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Propagarem-se com velocidades diferentes.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Essa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião",
+    "context": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Saliva, por consequência da atividade de enzimas.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Sangue, em função das hemácias e leucócitos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Lágrima, em razão da concentração de sais.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Urina, pela presenca de moléculas de ureia.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Leite, por causa do alto teor de gorduras.",
+        "file": null,
+        "isCorrect": true
+      }
+    ],
+    "question": "Em qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?",
+    "context": "O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula ![](https://enem.dev/broken-image.svg), está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.\n\n![](https://enem.dev/broken-image.svg)\n\nVIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para o controle químico de insetos. **Química Nova**, v. 26, n. 3, 2003 (adaptado).\n\nUm pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quais duas vantagens esse copo apresenta em comparação ao copo descartável?",
+    "context": "Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.\n\n**Cafeteria adota copo reutilizável feito com casca de café.** Disponível em: www.gazetadopovo.com.br. Acesso em: 5 dez. 2019 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Maior densidade.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "Menor viscosidade.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Maior volume de gás dissolvido.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Menor massa de solutos dissolvidos.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Maior temperatura de congelamento.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Entre as duas versões apresentadas, o refrigerante comum possui",
+    "context": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.\n\nCAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO2 em refrigerantes. **Química Nova na Escola**, n. 3, ago. 2014 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "20",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "60",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "64",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "68",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "80",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual é o número mínimo de bolinhas brancas que o gerente deve adicionar à urna B?",
+    "context": "Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de cada uma das duas urnas A e B disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%. Ganha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna.\n\nCom o passar dos dias, o gerente percebeu que, para a promoção ser viável aos negócios, era preciso alterar a probabilidade de acerto do cliente sem alterar a regra da promoção. Para isso, resolveu alterar a quantidade de bolinhas brancas na urna B de forma que a probabilidade de um cliente ganhar o voucher passasse a ser menor ou igual a 1%. Sabe-se que a urna B tem 4 bolinhas pretas e que, em ambas as urnas, todas as bolinhas têm a mesma probabilidade de serem retiradas."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/141/e698edb1-adc0-416b-9370-c20a7e878259.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/141/b5f5bdf5-2251-4326-9877-ce9c2d831600.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/141/d241fadb-6516-4ca8-aa9b-e72fff314881.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/141/1dcce683-4ef7-4862-b554-3e3c66de54c3.jpg",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/141/7b4de18d-92ca-488f-8419-ec95d852a135.jpg",
+        "isCorrect": true
+      }
+    ],
+    "question": "Qual a probabilidade de o vencedor do sorteio ser um estudante do terceiro ano?",
+    "context": null
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "50",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "60",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "80",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "140",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "150",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias?",
+    "context": null
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "10",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "11",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "12",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "30",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "33",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O número mínimo de salas que deverão ser construídas é",
+    "context": "Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%. A direção da fábrica realizou uma pesquisa e constatou que a lista de espera para o próximo ano terá a mesma quantidade de nomes da lista de espera deste ano. Decidiu, então, construir, ao longo desse ano, novas salas para a creche, também com capacidade de atendimento para 10 crianças cada, de modo que o número de nomes na lista de espera no próximo ano seja 25% menor que o deste ano."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "4",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "7",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "8",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Alguns estudos comprovam que os carboidratos fornecem energia ao corpo, preservam as proteínas estruturais dos músculos durante a prática de atividade física e ainda dão força para o cérebro coordenar os movimentos, o que de fato tem impacto positivo no desenvolvimento do praticante. O ideal é consumir 1 grama de carboidrato para cada minuto de caminhada.\nCIRINO, C. Boa pergunta: consumir carboidratos antes dos exercícios melhora o desempenho do atleta? Revista Saúde! É Vital, n. 330, nov. 2010 (adaptado).\nUm casal realizará diariamente 30 minutos de caminhada, ingerindo, antes dessa atividade, a quantidade ideal de carboidratos recomendada. Para ter o consumo ideal apenas por meio do consumo de pão de fôrma integral, o casal planeja garantir o suprimento de pães para um período de 30 dias ininterruptos. Sabe-se que cada pacote desse pão vem com 18 fatias, e que cada uma delas tem 15 gramas de carboidratos.\nA quantidade mínima de pacotes de pão de fôrma necessários para prover o suprimento a esse casal é",
+    "context": null
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "C = 0,9q",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "C = 0,1q",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "C = 1 − 0,1q",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "C = 1 − 0,9q",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "C = q − 10",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Nessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por",
+    "context": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.\n\nDisponível em: http://g1.globo.com. Acesso em: 1 dez. 2018 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "1",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "2",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "3",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "4",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "5",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A quantidade mínima de ajudantes que esse pescador precisa contratar para conseguir o lucro diário pretendido é",
+    "context": "Um pescador tem um custo fixo diário de R$ 900,00 com combustível, iscas, manutenção de seu barco e outras pequenas despesas. Ele vende cada quilograma de peixe por R$ 5,00. Sua meta é obter um lucro mínimo de R$ 800,00 por dia. Sozinho, ele consegue, ao final de um dia de trabalho, pescar 180 kg de peixe, o que é suficiente apenas para cobrir o custo fixo diário. Portanto, precisa contratar ajudantes, pagando para cada um R$ 250,00 por dia de trabalho. Além desse valor, 4%dareceita obtida pela venda de peixe é repartida igualmente entre os ajudantes. Considerando o tamanho de seu barco, ele pode contratar até 5 ajudantes. Ele sabe que com um ajudante a pesca diária é de 300 kg e que, a partir do segundo ajudante contratado, aumenta-se em 100 kg a quantidade de peixe pescada por ajudante em um dia de trabalho."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "2",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "4",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "6",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "12",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "18",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Quantos dias após iniciado esse método o agricultor deverá aplicar o produto X?",
+    "context": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "6,7%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "10%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "20%",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "21,5%",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "23,3%",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A taxa mensal de juros compostos praticada nesse financiamento é de",
+    "context": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.\n\nUm cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00.\n\nUtilize 5,29 como aproximação para 28."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Y = 250x",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Y = 500x",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Y = 750x",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "Y = 250x + 500",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "E",
+        "text": "Y = 500x + 250",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "A expressão que representa o preço y em função do volume x, em metro cúbico, é",
+    "context": "Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço _y_ do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume _x_ de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "(5,0 ; 5,5).",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": "(8,0 ; 8,5).",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "(11,5 ; 12,5).",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "(19,5 ; 20,5).",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "(3,5 ; 4,0).",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "O desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo",
+    "context": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/168/a5689a77-7cbd-4f5f-b548-eef2a3fee87f.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/168/67248715-8948-439d-9770-a652c76ac110.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/168/4d9a67e0-9136-42e4-855e-c72b0b876d28.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/168/24184847-9c76-40d3-9c78-44a35f0600e8.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/168/adeb932f-030f-4190-9b20-33a4a5f968f5.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "As probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente,",
+    "context": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "741",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "1 040",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "1 460",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "2 100",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "5 200",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "De acordo com as informações fornecidas, durante quantos anos Tzolkim aquela comunidade maia foi governada por tal família?",
+    "context": "O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab.\n\nDisponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/173/58763f45-39e0-4355-b932-75233adbdf21.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/173/81adc538-3ad2-4ced-9a2f-9a7f5f247c20.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/173/5d5d774d-009d-44a6-a774-55719c5547bf.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/173/3464da35-f15a-4506-b75a-168a26ff4664.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/173/146d0f23-94de-4fd7-ae01-2d31285103d3.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Um maratonista, visando melhorar sua performance, auxiliado por um médico, mensura o seu consumo de oxigênio por minuto a velocidade constante. Com base nesse consumo e na massa do atleta, o médico calcula o EC do atleta.\nA unidade de medida da grandeza descrita pelo parâmetro EC é",
+    "context": "Entre maratonistas, um parâmetro utilizado é o de economia de corrida (EC). O valor desse parâmetro é calculado pela razão entre o consumo de oxigênio, em mililitro (mL) por minuto (min), e a massa, em quilograma (kg), do atleta correndo a uma velocidade constante.\n\nDisponível em: www.treinamentoonline.com.br. Acesso em: 23 out. 2019 (adaptado)."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "4,68",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "6,30",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": "9,30",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": "10,50",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "10,65",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "Qual o preço, em real, de uma cartela de tíquetes vermelhos?",
+    "context": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/178/ad5cc202-0c4f-44fb-aa1a-ec86c2f86da4.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/178/c3b0946f-0e59-4928-858d-3f0a8887fb80.png",
+        "isCorrect": true
+      },
+      {
+        "letter": "C",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/178/f9e8ae9f-c9d6-4b83-9376-55b5ecba8a38.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "D",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/178/46326c50-0f0b-42cf-a1d5-65299d39a4fd.png",
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": null,
+        "file": "https://enem.dev/2023/questions/178/7ebc0f53-95db-497b-bc23-30cf64649c3a.png",
+        "isCorrect": false
+      }
+    ],
+    "question": "Um esboço de gráfico que descreve o volume de água acumulado, em litro, liberado por essa torneira durante um ciclo de lavagem das mãos, em função do tempo (t), em segundo, é",
+    "context": "Estudantes trabalhando com robótica criaram uma “torneira inteligente” que automatiza sua abertura e seu fechamento durante a limpeza das mãos. A tecnologia funciona da seguinte forma: ao se colocarem as mãos sob a torneira, ela libera água durante 3 segundos para que a pessoa possa molhá-las. Em seguida, interrompe o fornecimento de água por 5 segundos, enquanto a pessoa ensaboa suas mãos, e finaliza o ciclo liberando água para o enxágue por mais 3 segundos. Considere o tempo (_t_), em segundo, contado a partir do instante em que se inicia o ciclo. A vazão de água nessa torneira é constante."
+  },
+  {
+    "alternatives": [
+      {
+        "letter": "A",
+        "text": "Outubro.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "B",
+        "text": "Novembro.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "C",
+        "text": "Dezembro.",
+        "file": null,
+        "isCorrect": true
+      },
+      {
+        "letter": "D",
+        "text": "Janeiro.",
+        "file": null,
+        "isCorrect": false
+      },
+      {
+        "letter": "E",
+        "text": "Fevereiro.",
+        "file": null,
+        "isCorrect": false
+      }
+    ],
+    "question": "No início de qual desses meses o produtor deverá plantar esse tipo de semente?",
+    "context": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende estabelecer o melhor momento para o plantio desse tipo de semente, nos meses de outubro a março. Após consultar a previsão do índice mensal de precipitação de chuva (ImPC) da região onde ocorrerá o plantio, para o período chuvoso de 2020-2021, ele obteve os seguintes dados:  \n• outubro/2020: ImPC = 250 mm;  \n• novembro/2020: ImPC = 150 mm;  \n• dezembro/2020: ImPC = 200 mm;  \n• janeiro/2021: ImPC = 450 mm;  \n• fevereiro/2021: ImPC = 100 mm;  \n• março/2021: ImPC = 200 mm.\n\nCom base nessas previsões, ele precisa escolher dois meses consecutivos em que a média mensal de precipitação seja a maior possível."
+  }
+]

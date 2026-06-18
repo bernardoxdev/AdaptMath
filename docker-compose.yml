@@ -1,0 +1,64 @@
+services:
+  db:
+    image: postgres:15
+    container_name: case_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: case
+      POSTGRES_DB: case_db
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U case"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    command: >
+      sh -c "
+      python -m backend.database.setup_database &&
+      gunicorn -b 0.0.0.0:5000 backend.main:app
+      "
+    container_name: case_site
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./flask_session:/app/flask_session
+      - ./secret.key:/app/secret.key
+    env_file:
+      - .env
+    environment:
+      FLASK_ENV: production
+      DATABASE_URL: ${DATABASE_URL}
+      SECRET_KEY: ${SECRET_KEY}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES}
+      REFRESH_TOKEN_EXPIRE_DAYS: ${REFRESH_TOKEN_EXPIRE_DAYS}
+      HF_TOKEN: ${HF_TOKEN}
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_DB: 0
+    depends_on:
+      db:
+        condition: service_healthy
+
+  redis:
+    image: redis:7-alpine
+    container_name: case_redis
+    restart: unless-stopped
+    ports:
+     - "6379:6379"
+    volumes:
+     - redis_data:/data
+    command: redis-server --appendonly yes
+
+volumes:
+  postgres_data:
+  redis_data:

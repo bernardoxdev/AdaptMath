@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+*.env
+config.json
+*.key
+*.pem
+*.crt
+*.egg-info/
+.idea/
+idea/
+.vscode/
+venv/
+.venv/
+Documentos/
+.Documentos/
+flask_session/
+.flask_session/
+export_vps.sh
+docker_start.sh
+member_of_technical_staff_case (1).pdf

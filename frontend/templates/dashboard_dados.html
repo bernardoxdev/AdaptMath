@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dados Pessoais | AdaptMath</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_dados.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <a href="{{ url_for('dashboard') }}" class="back-link">← Voltar para Dashboard</a>
+
+    <div class="header">
+      <div class="profile">
+        <div class="profile-info">
+          <h1>{{ username }}</h1>
+
+          <p>Aprendizado personalizado com IA</p>
+        </div>
+
+      </div>
+
+      <div class="level">
+        Nível {{ nivel }}
+      </div>
+    </div>
+
+    <section class="stats">
+      <div class="stat-card">
+        <div class="stat-icon">✅</div>
+
+        <h2>{{ dados.quantidade_acertos }}</h2>
+
+        <span>Questões Corretas</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">❌</div>
+
+        <h2>{{ dados.quantidade_erros }}</h2>
+
+        <span>Questões Erradas</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">📚</div>
+
+        <h2>{{ dados.resolvidas }}</h2>
+
+        <span>Questões Realizadas</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon">📈</div>
+
+        <h2>{{ dados.media_testes }}%</h2>
+
+        <span>Nota Média nos Testes</span>
+      </div>
+    </section>
+
+    <section class="performance">
+      <div class="chart-card">
+        <h2>Evolução Semanal</h2>
+
+        <canvas id="weeklyChart"></canvas>
+      </div>
+
+      <div class="subjects-card">
+        <h2>Desempenho por Matéria</h2>
+
+        <div id="subjectsContainer"></div>
+      </div>
+    </section>
+
+    <section class="activity-card">
+      <h2>Atividades Recentes</h2>
+
+      <div id="activitiesContainer"></div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="{{ url_for('static', filename='js/dashboard_dados.js') }}"></script>
+
+</body>
+
+</html>
