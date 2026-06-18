@@ -13,18 +13,28 @@ from backend.database.models.mensagens import Mensagens
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-MODEL = "Qwen/Qwen2.5-7B-Instruct"
+MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL)
+tokenizer = None
+model = None
 
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL,
-    dtype=torch.float16,
-    device_map="auto"
-)
+def get_model():
+    global tokenizer, model
+
+    if model is None:
+        tokenizer = AutoTokenizer.from_pretrained(MODEL)
+
+        model = AutoModelForCausalLM.from_pretrained(
+            MODEL,
+            torch_dtype=torch.float16,
+            device_map="auto"
+        )
+
+    return tokenizer, model
 
 def gerar_dica(questao_id: int) -> dict:
     db: Session = SessionLocal()
+    tokenizer, model = get_model()
 
     try:
         questao = db.query(Questao).filter(Questao.id == questao_id).first()
@@ -117,6 +127,7 @@ def gerar_dica(questao_id: int) -> dict:
 
 def get_relatorio_insights(user_id: int) -> dict:
     db: Session = SessionLocal()
+    tokenizer, model = get_model()
 
     try:
         respostas = db.query(RespostaQuestao).filter(RespostaQuestao.usuario_id == user_id).count()
@@ -237,6 +248,7 @@ def gerar_texto(prompt: str, system_prompt: str = "Você é um professor de mate
 
 def gerar_analise_relatorio(user_id: int) -> dict:
     db: Session = SessionLocal()
+    tokenizer, model = get_model()
 
     try:
         total = db.query(RespostaQuestao).filter(RespostaQuestao.usuario_id == user_id).count()
@@ -310,6 +322,7 @@ def gerar_analise_relatorio(user_id: int) -> dict:
 
 def responder_chat(usuario_id: int, conversa_id: int, mensagem_usuario: str) -> dict:
     db: Session = SessionLocal()
+    tokenizer, model = get_model()
 
     try:
         conversa = db.query(Conversas).filter(Conversas.id == conversa_id, Conversas.usuario_id == usuario_id).first()

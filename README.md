@@ -24,7 +24,7 @@ Plataforma de apoio ao estudo de Matemática/ENEM com:
 
 - **IA local (Transformers / PyTorch)**
   - Geração de **dica** e de **respostas** do chat no backend.
-  - Modelo utilizado no código: **Qwen/Qwen2.5-7B-Instruct**.
+  - Modelo utilizado no código: **Qwen/Qwen2.5-0.5B-Instruct**.
 
 ## Premissas e decisões
 
