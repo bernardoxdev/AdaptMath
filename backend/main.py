@@ -704,7 +704,7 @@ def salvar_questao():
     user_id = int(session.get("user_id"))
     questao_id = data.get("questao_id")
 
-    return jsonify(favoritar_questao)
+    return jsonify(favoritar_questao(user_id, questao_id))
 
 @app.route('/api/questoes/salvas')
 @login_required
@@ -737,35 +737,9 @@ def remover_questao_salva(questao_id):
             404:
                 Questão não encontrada ou não favoritada.
     """
-    resultado = get_questao_favoritada(questao_id)
-
-    if not resultado["success"]:
-        return jsonify(resultado), 404
-
-    return jsonify(resultado)
-
-@app.route('/api/questoes/salvas/<int:questao_id>', methods=['DELETE'])
-@login_required
-def remover_questao_salva(questao_id):
-    """
-    Remove uma questão da lista de favoritos do usuário.
-
-    Args:
-        questao_id (int): Identificador da questão.
-
-    Returns:
-        Response:
-            200:
-                Questão removida com sucesso.
-            404:
-                Questão não encontrada ou não favoritada.
-    """
     user_id = int(session.get("user_id"))
 
-    resultado = remover_questao_favoritada(
-        user_id=user_id,
-        questao_id=questao_id
-    )
+    resultado = remover_questao_favoritada(user_id=user_id, questao_id=questao_id)
 
     if not resultado["success"]:
         return jsonify(resultado), 404
