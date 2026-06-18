@@ -26,9 +26,11 @@ def get_model():
 
         model = AutoModelForCausalLM.from_pretrained(
             MODEL,
-            torch_dtype=torch.float16,
-            device_map="auto"
+            dtype=torch.float16,
         )
+        
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        model.to(device)
 
     return tokenizer, model
 

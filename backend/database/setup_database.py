@@ -1,4 +1,6 @@
 from huggingface_hub import login
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
 
 from backend.core.config import HF_TOKEN
 
@@ -15,6 +17,31 @@ def questoes_ja_importadas():
 
     finally:
         db.close()
+    
+MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
+
+def baixar_modelo():
+    print("================================")
+    print("BAIXANDO MODELO DE IA")
+    print("================================")
+
+    AutoTokenizer.from_pretrained(MODEL)
+
+    if torch.cuda.is_available():
+        AutoModelForCausalLM.from_pretrained(
+            MODEL,
+            dtype=torch.float16,
+            device_map="auto"
+        )
+    else:
+        AutoModelForCausalLM.from_pretrained(
+            MODEL,
+            dtype=torch.float32
+        )
+
+    print("================================")
+    print("MODELO BAIXADO")
+    print("================================")
 
 def setup_database():
     try:
@@ -37,6 +64,8 @@ def setup_database():
 
         if not questoes_ja_importadas():
             classificar_questao()
+            
+        baixar_modelo()
 
         print("================================")
         print("SETUP FINALIZADO")
