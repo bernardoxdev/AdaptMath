@@ -13,7 +13,7 @@ from backend.database.models.mensagens import Mensagens
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 tokenizer = None
 model = None

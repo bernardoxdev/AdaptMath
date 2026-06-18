@@ -18,7 +18,7 @@ def questoes_ja_importadas():
     finally:
         db.close()
     
-MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL = "HuggingFaceTB/SmolLM2-135M-Instruct"
 
 def baixar_modelo():
     print("================================")
