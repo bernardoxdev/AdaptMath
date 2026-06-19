@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function carregarMaterias() {
     try {
-        const response = await fetch("/api/dados");
+        const response = await fetch("/api/relatorio/materias");
 
         const data = await response.json();
 
@@ -50,7 +50,7 @@ async function carregarMaterias() {
 
 async function carregarGrafico() {
     try {
-        const response = await fetch("/api/relatorio/materias");
+        const response = await fetch("/api/relatorio/evolucao");
 
         const data = await response.json();
 

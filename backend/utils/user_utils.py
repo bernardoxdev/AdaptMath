@@ -249,7 +249,7 @@ def get_estatistica_questoes(user_id: int) -> dict:
     db: Session = SessionLocal()
     
     try:
-        stmt = select(Questao.materia, func.count(RespostaQuestao.id).label("total"), func.sum(case((RespostaQuestao.acertou == True, 1), else_=0)).label("acertos")).join(RespostaQuestao, RespostaQuestao.questao_id == Questao.id).where(RespostaQuestao.usuario_id == user_id).group_by(Questao.materia)
+        stmt = select(Questao.assunto, func.count(RespostaQuestao.id).label("total"), func.sum(case((RespostaQuestao.acertou == True, 1), else_=0)).label("acertos")).join(RespostaQuestao, RespostaQuestao.questao_id == Questao.id).where(RespostaQuestao.usuario_id == user_id).group_by(Questao.materia)
         resultado = db.execute(stmt)
         
         if not resultado:
@@ -264,7 +264,7 @@ def get_estatistica_questoes(user_id: int) -> dict:
             percentual = round((acertos / total) * 100, 2)
 
             dados.append({
-                "materia": materia,
+                "nome": materia,
                 "total": total,
                 "acertos": acertos,
                 "percentual": percentual
@@ -411,21 +411,38 @@ def get_relatorio_resumo(user_id: int) -> dict:
 
         materias = get_estatistica_questoes(user_id)
 
-        melhor = None
-        pior = None
+        melhor = {
+            "nome": "-",
+            "percentual": 0
+        }
+
+        pior = {
+            "nome": "-",
+            "percentual": 0
+        }
 
         if materias.get("success") and materias.get("materias"):
-            lista_materias = materias["materias"]
+            lista = materias["materias"]
 
-            melhor = max(
-                lista_materias,
+            melhor_materia = max(
+                lista,
                 key=lambda m: m["percentual"]
             )
 
-            pior = min(
-                lista_materias,
+            pior_materia = min(
+                lista,
                 key=lambda m: m["percentual"]
             )
+
+            melhor = {
+                "nome": melhor_materia["nome"],
+                "percentual": melhor_materia["percentual"]
+            }
+
+            pior = {
+                "nome": pior_materia["nome"],
+                "percentual": pior_materia["percentual"]
+            }
 
         return {
             "success": True,
@@ -437,6 +454,6 @@ def get_relatorio_resumo(user_id: int) -> dict:
 
     finally:
         db.close()
-        
+ 
 if __name__ == '__main__':
     pass

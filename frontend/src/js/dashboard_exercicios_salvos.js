@@ -209,10 +209,8 @@ async function visualizarQuestao(id) {
 
         alternativas.innerHTML = "";
 
-        questao.alternativas.forEach(
-            alt => {
-
-                alternativas.innerHTML += `
+        questao.alternativas.forEach(alt => {
+            alternativas.innerHTML += `
                     <div class="alternative">
 
                         <div class="letter">
@@ -221,83 +219,61 @@ async function visualizarQuestao(id) {
 
                         <div class="alternative-content">
 
-                            ${
-                                alt.texto
-                                ? `<p>${alt.texto}</p>`
-                                : ""
-                            }
+                            ${alt.texto
+                    ? `<p>${alt.texto}</p>`
+                    : ""
+                }
 
-                            ${
-                                alt.imagem
-                                ? `
+                            ${alt.imagem
+                    ? `
                                     <img
                                         src="${alt.imagem}"
                                         class="alternative-image"
                                         style="max-width:100%;margin-top:10px;"
                                     >
                                 `
-                                : ""
-                            }
+                    : ""
+                }
 
                         </div>
 
                     </div>
                 `;
-            }
-        );
+        });
 
         openViewModal();
 
     } catch (e) {
-
         console.error(e);
 
-        mostrarToast(
-            "Erro ao carregar exercício",
-            "error"
-        );
+        mostrarToast("Erro ao carregar exercício", "error");
     }
 }
 
 function abrirRemocao(id) {
-
     questaoSelecionada = id;
 
     openRemoveModal();
 }
 
 async function removerQuestao() {
-
     if (!questaoSelecionada)
         return;
 
     try {
+        const response = await fetch(`/api/questoes/salvas/${questaoSelecionada}`, {
+            method: "DELETE"
+        });
 
-        const response =
-            await fetch(
-                `/api/questoes/salvas/${questaoSelecionada}`,
-                {
-                    method: "DELETE"
-                }
-            );
-
-        const data =
-            await response.json();
+        const data = await response.json();
 
         if (!data.success) {
-
-            mostrarToast(
-                data.message,
-                "error"
-            );
+            mostrarToast(data.message, "error");
 
             return;
         }
 
-        mostrarToast(
-            data.message,
-            "success"
-        );
+        mostrarToast(data.message, "success");
 
         closeRemoveModal();
 
@@ -306,73 +282,43 @@ async function removerQuestao() {
         carregarQuestoesSalvas();
 
     } catch (e) {
-
         console.error(e);
 
-        mostrarToast(
-            "Erro ao remover exercício",
-            "error"
-        );
+        mostrarToast("Erro ao remover exercício", "error");
     }
 }
 
-document
-    .querySelector(".confirm-btn")
-    .addEventListener(
-        "click",
-        removerQuestao
-    );
+document.querySelector(".confirm-btn").addEventListener("click", removerQuestao);
 
 function openViewModal() {
-    document
-        .getElementById("viewModal")
-        .style.display = "flex";
+    document.getElementById("viewModal").style.display = "flex";
 }
 
 function closeViewModal() {
-    document
-        .getElementById("viewModal")
-        .style.display = "none";
+    document.getElementById("viewModal").style.display = "none";
 }
 
 function openRemoveModal() {
-    document
-        .getElementById("removeModal")
-        .style.display = "flex";
+    document.getElementById("removeModal").style.display = "flex";
 }
 
 function closeRemoveModal() {
-    document
-        .getElementById("removeModal")
-        .style.display = "none";
+    document.getElementById("removeModal").style.display = "none";
 }
 
-window.addEventListener(
-    "click",
-    (event) => {
+window.addEventListener("click", (event) => {
+    const viewModal = document.getElementById("viewModal");
 
-        const viewModal =
-            document.getElementById(
-                "viewModal"
-            );
+    const removeModal = document.getElementById("removeModal");
 
-        const removeModal =
-            document.getElementById(
-                "removeModal"
-            );
-
-        if (event.target === viewModal) {
-            closeViewModal();
-        }
-
-        if (event.target === removeModal) {
-            closeRemoveModal();
-        }
+    if (event.target === viewModal) {
+        closeViewModal();
     }
-);
 
-window.closeViewModal =
-    closeViewModal;
+    if (event.target === removeModal) {
+        closeRemoveModal();
+    }
+});
 
-window.closeRemoveModal =
-    closeRemoveModal;
+window.closeViewModal = closeViewModal;
+window.closeRemoveModal = closeRemoveModal;

@@ -370,7 +370,7 @@ def dashboard_dados():
     dados = export_data(user_id)
     nivel = get_nivel(user_id)
 
-    return render_template("dashboard_dados.html", username=session.get('username'), nivel=nivel, dados=dados)
+    return render_template("dashboard_dados.html", username=session.get('user_name'), nivel=nivel, dados=dados)
 
 @app.route('/dashboard/relatorio')
 @login_required
@@ -745,6 +745,82 @@ def remover_questao_salva(questao_id):
         return jsonify(resultado), 404
 
     return jsonify(resultado)
+
+@app.route("/api/questoes/salvas/<int:questao_id>", methods=["GET"])
+@login_required
+def visualizar_questao_favoritada(questao_id):
+    """
+    Retorna os dados completos de uma questão salva pelo usuário.
+
+    Recupera uma questão previamente favoritada pelo usuário
+    autenticado, incluindo enunciado, contexto, imagens,
+    alternativas e demais informações necessárias para sua
+    visualização na interface.
+
+    Args:
+        questao_id (int):
+            Identificador da questão salva.
+
+    Returns:
+        Response:
+            200:
+                Questão encontrada com sucesso.
+
+            404:
+                A questão não foi encontrada ou não pertence
+                à lista de questões salvas do usuário.
+
+    Exemplo de retorno:
+    {
+        "success": true,
+        "questao": {
+            "id": 15,
+            "titulo": "Questão ENEM 2024",
+            "contexto": "Leia o texto a seguir...",
+            "imagem_url": null,
+            "materia": "Matemática",
+            "assunto": "Geometria",
+            "habilidade_enem": "H17",
+            "dificuldade": 2.3,
+            "origem": "ENEM",
+            "alternativas": [
+                {
+                    "letra": "A",
+                    "texto": "...",
+                    "imagem": null
+                },
+                {
+                    "letra": "B",
+                    "texto": "...",
+                    "imagem": null
+                },
+                {
+                    "letra": "C",
+                    "texto": "...",
+                    "imagem": null
+                },
+                {
+                    "letra": "D",
+                    "texto": "...",
+                    "imagem": null
+                },
+                {
+                    "letra": "E",
+                    "texto": "...",
+                    "imagem": null
+                }
+            ]
+        }
+    }
+    """
+    user_id = int(session.get("user_id"))
+
+    resultado = get_questao_favoritada(user_id=user_id, questao_id=questao_id)
+
+    if not resultado["success"]:
+        return jsonify(resultado), 404
+
+    return jsonify(resultado), 200
 
 @app.route('/api/questoes/proxima', methods=['POST'])
 @login_required

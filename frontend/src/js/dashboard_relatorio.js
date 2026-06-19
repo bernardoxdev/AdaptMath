@@ -69,16 +69,10 @@ async function carregarGrafico() {
     if (!data.success)
         return;
 
-    const labels =
-        data.meses.map(
-            item => item.nome
-        );
+    const labels = data.meses.map(item => item.nome);
 
-    const valores =
-        data.meses.map(
-            item => item.valor
-        );
-
+    const valores = data.meses.map(item => item.valor);
+    
     const ctx =
         document
             .getElementById(
