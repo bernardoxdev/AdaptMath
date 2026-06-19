@@ -1145,7 +1145,9 @@ def api_carregar_conversa(conversa_id):
                 ]
             }
     """
-    return jsonify(get_conversa(conversa_id))
+    user_id = int(session["user_id"])
+
+    return jsonify(get_conversa(user_id, conversa_id))
 
 
 @app.route('/api/questoes/dica/<int:numero>')

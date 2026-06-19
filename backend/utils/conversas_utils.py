@@ -45,17 +45,47 @@ def get_conversas(user_id: int) -> dict:
     finally:
         db.close()
 
-def get_conversa(conversa_id: int) -> dict:
-    db: Session = SessionLocal()
-    
+def get_conversa(user_id: int, conversa_id: int) -> dict:
+    db = SessionLocal()
+
     try:
-        mensagens = db.query(Mensagens).filter(Mensagens.conversa_id==conversa_id).order_by(Mensagens.id.asc()).all()
-        
+
+        conversa = (
+            db.query(Conversas)
+            .filter(
+                Conversas.id == conversa_id,
+                Conversas.usuario_id == user_id
+            )
+            .first()
+        )
+
+        if not conversa:
+            return {
+                "success": False,
+                "message": "Conversa não encontrada."
+            }
+
+        mensagens = (
+            db.query(Mensagens)
+            .filter(
+                Mensagens.conversa_id == conversa_id
+            )
+            .order_by(Mensagens.id.asc())
+            .all()
+        )
+
         return {
             "success": True,
-            "mensagens": [{"id": m.id, "tipo": m.tipo, "texto": m.texto} for m in mensagens]
+            "mensagens": [
+                {
+                    "id": m.id,
+                    "tipo": m.tipo,
+                    "texto": m.texto
+                }
+                for m in mensagens
+            ]
         }
-    
+
     finally:
         db.close()
 
