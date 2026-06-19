@@ -6,6 +6,10 @@ const inputArea = document.getElementById("inputArea");
 const messageInput = document.getElementById("messageInput");
 const btnEnviar = document.getElementById("btnEnviar");
 const btnNovaConversa = document.getElementById("btnNovaConversa");
+const btnPlano = document.getElementById("btnPlano");
+const btnExplicar = document.getElementById("btnExplicar");
+const btnExercicios = document.getElementById("btnExercicios");
+const btnRecomendacoes = document.getElementById("btnRecomendacoes");
 
 const menuBtn = document.getElementById("menuBtn");
 const sidebar = document.querySelector(".sidebar");
@@ -257,4 +261,52 @@ messageInput.addEventListener("keydown", e => {
 
         enviarMensagem();
     }
+});
+
+async function enviarPrompt(prompt) {
+
+    messageInput.value = prompt;
+
+    await enviarMensagem();
+
+}
+
+messageInput.addEventListener("keydown", e => {
+    if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+
+        enviarMensagem();
+    }
+});
+
+btnPlano.addEventListener("click", () => {
+
+    enviarPrompt(
+        `Monte um plano de estudos personalizado para mim com base no meu desempenho atual em matemática. Informe quais assuntos devo estudar primeiro, a ordem recomendada e uma sugestão de cronograma semanal.`
+    );
+
+});
+
+btnExplicar.addEventListener("click", () => {
+
+    enviarPrompt(
+        `Explique um conteúdo de matemática de forma didática, utilizando exemplos práticos e passo a passo. Caso necessário, faça perguntas para entender melhor qual assunto estou estudando antes de responder.`
+    );
+
+});
+
+btnExercicios.addEventListener("click", () => {
+
+    enviarPrompt(
+        `Gere uma lista de exercícios de matemática adequada ao meu nível atual. Escolha assuntos em que tenho maior dificuldade e forneça apenas os enunciados, sem revelar as respostas.`
+    );
+
+});
+
+btnRecomendacoes.addEventListener("click", () => {
+
+    enviarPrompt(
+        `Analise meu histórico de desempenho e apresente recomendações personalizadas sobre quais assuntos devo revisar, quais habilidades preciso fortalecer e quais estratégias podem melhorar meu desempenho no ENEM.`
+    );
+
 });
