@@ -145,7 +145,7 @@ def get_relatorio_insights(user_id: int) -> dict:
                 ]
             }
 
-        materias = db.query(Questao.materia,func.count(RespostaQuestao.id).label("total"),func.sum(RespostaQuestao.acertou.cast(Integer)).label("acertos")).join(RespostaQuestao, Questao.id == RespostaQuestao.questao_id).filter(RespostaQuestao.usuario_id == user_id).group_by(Questao.materia).all()
+        materias = db.query(Questao.assunto,func.count(RespostaQuestao.id).label("total"),func.sum(RespostaQuestao.acertou.cast(Integer)).label("acertos")).join(RespostaQuestao, Questao.id == RespostaQuestao.questao_id).filter(RespostaQuestao.usuario_id == user_id).group_by(Questao.assunto).all()
 
         desempenho = []
 

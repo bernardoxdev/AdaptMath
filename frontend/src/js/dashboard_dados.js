@@ -50,79 +50,88 @@ async function carregarMaterias() {
 
 async function carregarGrafico() {
     try {
+
         const response = await fetch("/api/relatorio/evolucao");
 
         const data = await response.json();
 
-        console.log("Gráfico:", data);
+        console.log(data);
 
-        if (!data.success) {
+        if (!data.success)
+            return;
+
+        const labels = data.meses.map(
+            item => item.nome
+        );
+
+        const valores = data.meses.map(
+            item => item.valor
+        );
+
+        const canvas =
+            document.getElementById("weeklyChart");
+
+        if (!canvas) {
+            console.error("Canvas weeklyChart não encontrado.");
             return;
         }
 
-        const labels = data.dados.map(item => item.dia);
+        const ctx = canvas.getContext("2d");
 
-        const valores = data.dados.map(item => item.acertos);
-
-        const ctx = document.getElementById("weeklyChart").getContext("2d");
-
-        if (chart) {
+        if (chart)
             chart.destroy();
-        }
 
         chart = new Chart(ctx, {
+
             type: "bar",
+
             data: {
-                labels: labels,
+
+                labels,
+
                 datasets: [
+
                     {
-                        label: "Acertos",
+                        label: "Desempenho (%)",
                         data: valores,
                         backgroundColor: "#38bdf8",
                         borderRadius: 10
                     }
+
                 ]
+
             },
+
             options: {
+
                 responsive: true,
+
                 maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        labels: {
-                            color: "#ffffff"
-                        }
-                    }
-                },
+
                 scales: {
-                    x: {
-                        ticks: {
-                            color: "#cbd5e1"
-                        },
-                        grid: {
-                            color:
-                                "rgba(255,255,255,0.05)"
-                        }
-                    },
+
                     y: {
+
                         beginAtZero: true,
-                        ticks: {
-                            color: "#cbd5e1"
-                        },
-                        grid: {
-                            color:
-                                "rgba(255,255,255,0.05)"
-                        }
+
+                        max: 100
+
                     }
+
                 }
+
             }
+
         });
 
-    } catch (e) {
-        console.error(
-            "Erro ao carregar gráfico:",
-            e
-        );
     }
+
+    catch (e) {
+
+        console.error(e);
+
+    }
+
 }
 
 async function carregarAtividades() {

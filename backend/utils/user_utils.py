@@ -249,7 +249,7 @@ def get_estatistica_questoes(user_id: int) -> dict:
     db: Session = SessionLocal()
     
     try:
-        stmt = select(Questao.assunto, func.count(RespostaQuestao.id).label("total"), func.sum(case((RespostaQuestao.acertou == True, 1), else_=0)).label("acertos")).join(RespostaQuestao, RespostaQuestao.questao_id == Questao.id).where(RespostaQuestao.usuario_id == user_id).group_by(Questao.materia)
+        stmt = select(Questao.assunto, func.count(RespostaQuestao.id).label("total"), func.sum(case((RespostaQuestao.acertou == True, 1), else_=0)).label("acertos")).join(RespostaQuestao, RespostaQuestao.questao_id == Questao.id).where(RespostaQuestao.usuario_id == user_id).group_by(Questao.assunto)
         resultado = db.execute(stmt)
         
         if not resultado:
